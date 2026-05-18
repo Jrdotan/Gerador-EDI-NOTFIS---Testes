@@ -47,9 +47,11 @@ Como Executar
 Verifique que o Ruby está instalado:
 
 ```ruby -v```
+
 Execute o programa:
 
 ```ruby app.rb```
+
 Preencha os dados conforme solicitado.
 
 Ao final, será gerado um arquivo .TXT com o nome definido pelo iddoc.
