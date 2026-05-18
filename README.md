@@ -1,6 +1,6 @@
 Gerador de Arquivos NOTFIS (Notas Fiscais)
 
-Este projeto gera arquivos de intercâmbio no padrão OTFIS, contendo os registros 000, 310, 311, 312, 313 e 314.
+Este projeto gera arquivos de intercâmbio no padrão NOTFIS, contendo os registros 000, 310, 311, 312, 313 e 314.
 O script funciona de forma interativa pelo terminal e cria um arquivo .TXT seguindo o layout fixo de 240 caracteres por linha.
 
 Funcionalidade
@@ -45,9 +45,11 @@ Espécie de acondicionamento
 Descrição da mercadoria
 Como Executar
 Verifique que o Ruby está instalado:
-ruby -v
+
+```ruby -v```
 Execute o programa:
-ruby app.rb
+
+```ruby app.rb```
 Preencha os dados conforme solicitado.
 
 Ao final, será gerado um arquivo .TXT com o nome definido pelo iddoc.
